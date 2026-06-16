@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+Portal frontend’de kullanıcıya görünen tüm metinler modüler i18n ile yönetilir: kodda düz metin yerine intl.formatMessage / IntlMessages id kullanın; çevirileri portal-frontend/src/config/translation/locales/tr ve en altında aynı dosya adıyla JSON’a ekleyin; yeni modülü entries/en-US.js ve tr_TR.js içinde import edip messages’a spread edin.
