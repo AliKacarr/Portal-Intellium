@@ -1,0 +1,132 @@
+{
+  "tickets.columns.id": "ID",
+  "tickets.columns.name": "Ticket Name",
+  "tickets.columns.requestType": "Request Type",
+  "tickets.columns.customer": "Customer",
+  "tickets.columns.project": "Project",
+  "tickets.columns.creationDate": "Creation Date",
+  "tickets.columns.status": "Ticket Status",
+  "tickets.columns.assignedUser": "Assigned User",
+
+  "tickets.status.new": "New request",
+  "tickets.status.assigned": "Assigned",
+  "tickets.status.resolved": "Resolved",
+
+  "tickets.status.newExport": "New Request",
+  "tickets.status.unknown": "Unknown Status",
+  "tickets.status.notAssignedYet": "Not assigned yet",
+  "tickets.status.notResolvedYet": "Not resolved yet",
+
+  "tickets.requestType.unspecified": "Unspecified",
+
+  "tickets.filter.search": "Search",
+  "tickets.filter.reset": "Reset",
+  "tickets.filter.close": "Close",
+
+  "tickets.breadcrumb.ticket": "Ticket",
+  "tickets.breadcrumb.list": "Ticket List",
+  "tickets.actions.create": "Create Ticket",
+  "tickets.actions.export": "Export to Excel",
+
+  "tickets.detail.pageTitle": "Ticket Details",
+  "tickets.detail.breadcrumb.ticket": "Ticket",
+  "tickets.detail.breadcrumb.detail": "Ticket Details",
+  "tickets.detail.effortEntry": "Effort Entry",
+
+  "tickets.detail.labels.name": "Ticket Name",
+  "tickets.detail.labels.status": "Ticket Status",
+  "tickets.detail.labels.creator": "Creator",
+  "tickets.detail.labels.assignedUser": "Assigned User",
+  "tickets.detail.labels.requestType": "Request Type",
+  "tickets.detail.labels.projectName": "Project Name",
+  "tickets.detail.labels.creationDate": "Creation Date",
+  "tickets.detail.labels.assignedDate": "Assigned Date",
+  "tickets.detail.labels.resolutionDate": "Resolution Date",
+  "tickets.detail.card.description": "Ticket Description",
+  "tickets.detail.attachments.ribbon": "Attachments",
+  "tickets.detail.attachments.cardTitle": "Attachments for this Ticket",
+  "tickets.detail.attachments.downloadIcon": "View",
+
+  "tickets.comments.title": "Comments",
+  "tickets.comments.count": "{count} replies",
+  "tickets.comments.add": "Add Comment",
+  "tickets.comments.reply": "Reply",
+  "tickets.comments.replyButton": "Comment",
+  "tickets.comments.cancel": "Cancel",
+
+  "tickets.comments.toast.empty": "Comment cannot be empty",
+  "tickets.comments.toast.addSuccess": "Comment added successfully",
+  "tickets.comments.toast.addError": "Error while adding comment",
+  "tickets.comments.toast.replyError": "An error occurred while adding the reply",
+
+  "tickets.edit.button": "Edit",
+  "tickets.edit.modalTitle": "Edit Ticket Details",
+  "tickets.edit.actions.save": "Save",
+  "tickets.edit.toast.updated": "Ticket updated.",
+  "tickets.edit.toast.error": "Error while updating the ticket!",
+
+  "tickets.edit.form.status.label": "Ticket Status",
+  "tickets.edit.form.status.required": "Please select ticket status",
+  "tickets.edit.form.status.placeholder": "Select ticket status",
+
+  "tickets.edit.form.requestType.label": "Request Type",
+  "tickets.edit.form.requestType.placeholder": "Select request types",
+
+  "tickets.edit.form.assignedUser.label": "Assigned user",
+  "tickets.edit.form.assignedUser.required": "Please select an assigned user",
+  "tickets.edit.form.assignedUser.placeholder": "Assigned user",
+
+  "tickets.edit.form.targetBoard.label": "Target board",
+  "tickets.edit.form.targetBoard.placeholder": "All boards in the project",
+
+  "tickets.edit.form.targetList.label": "Target list",
+  "tickets.edit.form.targetList.placeholder": "Select a list",
+
+  "tickets.add.breadcrumb.ticket": "Ticket",
+  "tickets.add.breadcrumb.create": "Create Ticket",
+  "tickets.add.form.name.label": "Ticket Name",
+  "tickets.add.form.name.maxError": "Ticket name cannot be longer than 120 characters!",
+  "tickets.add.form.name.required": "This field cannot be empty!",
+  "tickets.add.form.name.placeholder": "A short summary of the issue",
+
+  "tickets.add.form.project.label": "Project",
+  "tickets.add.form.project.required": "This field cannot be empty!",
+  "tickets.add.form.project.placeholder": "Select Project",
+
+  "tickets.add.form.description.label": "Description",
+  "tickets.add.form.description.required": "Description cannot be empty",
+  "tickets.add.form.description.placeholder": "Describe the issue in detail",
+
+  "tickets.add.form.attachments.label": "Attachments",
+  "tickets.add.upload.add": "Add",
+  "tickets.add.button": "Create Ticket",
+
+  "tickets.add.toast.fileUploaded": "File uploaded",
+  "tickets.add.toast.fileTooLarge": "Maximum upload size is 10MB",
+  "tickets.add.toast.created": "Ticket created.",
+  "tickets.add.toast.error": "Error while creating the ticket!",
+
+  "tickets.last.title": "Latest Tickets",
+  "tickets.last.requestType.unspecified": "Unspecified",
+  "tickets.lists.defaultLabel": "Tickets",
+
+  "tickets.effort.cardTitle": "Effort",
+  "tickets.effort.table.date": "Date",
+  "tickets.effort.table.time": "Time",
+  "tickets.effort.table.description": "Description",
+  "tickets.effort.table.minutes": "Effort (min)",
+  "tickets.effort.table.billable": "Billable",
+  "tickets.effort.table.billableYes": "Yes",
+  "tickets.effort.table.billableNo": "No",
+  "tickets.effort.table.actions": "Actions",
+  "tickets.effort.table.deleteConfirm": "Do you want to delete this effort?",
+  "tickets.effort.table.deleteOk": "Yes",
+  "tickets.effort.table.deleteCancel": "No",
+
+  "tickets.effort.modalTitle": "Effort Entry",
+  "tickets.effort.modal.minutesLabel": "Effort (Minutes)",
+  "tickets.effort.modal.descriptionLabel": "Description",
+  "tickets.effort.modal.billableLabel": "Billable?",
+  "tickets.effort.modal.save": "Save",
+  "tickets.effort.toast.saved": "Effort saved!"
+}

@@ -1,0 +1,19 @@
+{
+  "notification.title": "Notifications",
+  "notification.actions.loadMore": "Load More",
+  "notification.actions.clearAll": "Clear All",
+  "notification.actions.delete": "Delete",
+  "notification.common.yes": "Yes",
+  "notification.common.no": "No",
+  "notification.common.cancel": "Cancel",
+  "notification.tooltips.read": "Read",
+  "notification.tooltips.markAsRead": "Mark as read",
+  "notification.confirm.clearAllTitle": "Are you sure you want to delete all notifications?",
+  "notification.confirm.deleteOneTitle": "Are you sure you want to delete this notification?",
+  "notification.messages.deleted": "Notification deleted",
+  "notification.messages.deleteNotSupported": "Delete endpoint is not available on server (404).",
+  "notification.messages.deleteFailed": "Notification could not be deleted.",
+  "notification.messages.clearedAll": "All notifications cleared",
+  "notification.messages.bulkDeleteNotSupported": "Bulk delete endpoint is not available on server (404).",
+  "notification.messages.bulkDeleteFailed": "Notifications could not be cleared."
+}

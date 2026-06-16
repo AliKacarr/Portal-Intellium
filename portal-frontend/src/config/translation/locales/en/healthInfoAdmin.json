@@ -1,0 +1,103 @@
+{
+  "healthInfoAdmin.common.na": "N/A",
+  "healthInfoAdmin.common.invalidDate": "Invalid Date",
+  "healthInfoAdmin.common.yes": "Yes",
+  "healthInfoAdmin.common.yesDelete": "Yes, Delete",
+  "healthInfoAdmin.common.no": "No",
+  "healthInfoAdmin.common.back": "Go Back",
+  "healthInfoAdmin.breadcrumb.management": "Management",
+  "healthInfoAdmin.breadcrumb.title": "Health Information Management",
+  "healthInfoAdmin.pageTitle": "Health Information Management",
+  "healthInfoAdmin.table.user": "User",
+  "healthInfoAdmin.table.insuranceCompany": "Insurance Company",
+  "healthInfoAdmin.table.policyNumber": "Policy Number",
+  "healthInfoAdmin.table.policyType": "Policy Type",
+  "healthInfoAdmin.table.startDate": "Start Date",
+  "healthInfoAdmin.table.endDate": "End Date",
+  "healthInfoAdmin.table.policyStatus": "Policy Status",
+  "healthInfoAdmin.table.action": "Action",
+  "healthInfoAdmin.actions.addNewRecord": "Add New Record",
+  "healthInfoAdmin.actions.viewDetails": "View Details",
+  "healthInfoAdmin.actions.edit": "Edit",
+  "healthInfoAdmin.actions.delete": "Delete",
+  "healthInfoAdmin.actions.deleteConfirm": "Are you sure you want to delete this record?",
+  "healthInfoAdmin.search.searchPlaceholder": "Search",
+  "healthInfoAdmin.search.filter": "Filter",
+  "healthInfoAdmin.search.categories": "Categories",
+  "healthInfoAdmin.search.status": "Status",
+  "healthInfoAdmin.expiringPolicies.title": "Expired / Upcoming Policies ({count})",
+  "healthInfoAdmin.expiringPolicies.expiredTooltip": "Policy expired {days} days ago!",
+  "healthInfoAdmin.expiringPolicies.remainingDaysTooltip": "Days remaining: {days}",
+  "healthInfoAdmin.expiringPolicies.expired": "Expired",
+  "healthInfoAdmin.expiringPolicies.days": "{days} days",
+  "healthInfoAdmin.expiringPolicies.expiredTooltipPast": "Policy expired {days} days ago!",
+  "healthInfoAdmin.expiringPolicies.remainingToEnd": "Days remaining until policy end: {days}",
+  "healthInfoAdmin.messages.fetchFailed": "Failed to load data!",
+  "healthInfoAdmin.messages.deleteSuccess": "Record deleted successfully.",
+  "healthInfoAdmin.messages.deleteFailed": "Delete operation failed.",
+  "healthInfoAdmin.messages.deleteError": "An error occurred during delete operation.",
+  "healthInfoAdmin.details.fetchFailed": "Failed to load record details.",
+  "healthInfoAdmin.details.serverError": "A server error occurred while loading data.",
+  "healthInfoAdmin.details.invalidRecordId": "Invalid record ID!",
+  "healthInfoAdmin.details.loading": "Loading details...",
+  "healthInfoAdmin.details.error": "Error",
+  "healthInfoAdmin.details.notFound": "Health information not found.",
+  "healthInfoAdmin.details.breadcrumbDetails": "Details",
+  "healthInfoAdmin.details.title": "Health Information Details",
+  "healthInfoAdmin.details.backToList": "Back to List",
+  "healthInfoAdmin.common.cancel": "Cancel",
+  "healthInfoAdmin.common.add": "Add",
+  "healthInfoAdmin.common.update": "Update",
+  "healthInfoAdmin.form.newHealthInfo": "Add New Health Information",
+  "healthInfoAdmin.form.editHealthInfo": "Edit Health Information",
+  "healthInfoAdmin.form.fillRequired": "Please fill all required form fields!",
+  "healthInfoAdmin.form.operationFailed": "Operation failed!",
+  "healthInfoAdmin.form.userListFormatInvalid": "User list format is invalid!",
+  "healthInfoAdmin.form.userListFetchFailed": "Failed to load user list!",
+  "healthInfoAdmin.form.addSuccess": "New health information added successfully!",
+  "healthInfoAdmin.form.recordFetchFailed": "Failed to load record data",
+  "healthInfoAdmin.form.dataFetchError": "An error occurred while loading data!",
+  "healthInfoAdmin.form.updateSuccess": "Record updated successfully!",
+  "healthInfoAdmin.form.documentMarkedForDelete": "Existing document marked for deletion. It will be deleted after saving.",
+  "healthInfoAdmin.form.dependentMarkedForDelete": "Existing dependent marked for deletion. It will be deleted after saving.",
+  "healthInfoAdmin.form.loadingData": "Loading data..."
+  ,"healthInfoAdmin.form.selectUserRequired": "Please select a user!"
+  ,"healthInfoAdmin.form.selectUser": "Select user"
+  ,"healthInfoAdmin.form.requiredField": "Required field!"
+  ,"healthInfoAdmin.form.insuranceCompanyPlaceholder": "Ex: Anadolu Insurance"
+  ,"healthInfoAdmin.form.agencyNameRequired": "Agency name is required!"
+  ,"healthInfoAdmin.form.agencyNamePlaceholder": "Agency name"
+  ,"healthInfoAdmin.form.agencyContactPersonRequired": "Contact person is required!"
+  ,"healthInfoAdmin.form.agencyContactPersonPlaceholder": "Contact full name"
+  ,"healthInfoAdmin.form.phoneRequired": "Phone number is required!"
+  ,"healthInfoAdmin.form.validPhoneRequired": "Enter a valid number."
+  ,"healthInfoAdmin.form.phonePlaceholder": "Phone Number"
+  ,"healthInfoAdmin.form.policyNumberPlaceholder": "Policy number"
+  ,"healthInfoAdmin.form.policyTypePlaceholder": "Ex: Group, Supplementary, Individual"
+  ,"healthInfoAdmin.form.beginAfterEndError": "Policy start date cannot be after end date."
+  ,"healthInfoAdmin.form.endBeforeBeginError": "Policy end date cannot be before start date."
+  ,"healthInfoAdmin.form.selectDate": "Select date"
+  ,"healthInfoAdmin.form.policyStatusPlaceholder": "Ex: Active, Passive, To Renew"
+  ,"healthInfoAdmin.form.planNamePlaceholder": "Ex: Standard, Premium, Green Plan"
+  ,"healthInfoAdmin.form.coverageAreaPlaceholder": "Ex: Inpatient, Inpatient+Outpatient"
+  ,"healthInfoAdmin.form.coverageLimitPlaceholder": "Ex: 5000/Year, Unlimited"
+  ,"healthInfoAdmin.form.coveragePercentagePlaceholder": "Ex: 100%, 80%"
+  ,"healthInfoAdmin.form.paymentTypePlaceholder": "Ex: Lump Sum, Installment"
+  ,"healthInfoAdmin.form.installmentDetailsPlaceholder": "Ex: 12 Months x 200 TRY"
+  ,"healthInfoAdmin.form.taxAdvantagePlaceholder": "Tax advantage or SGK exemption information if available"
+  ,"healthInfoAdmin.form.fullName": "Full Name"
+  ,"healthInfoAdmin.form.nameRequired": "Name is required"
+  ,"healthInfoAdmin.form.dependentNamePlaceholder": "Dependent full name"
+  ,"healthInfoAdmin.form.relationshipRequired": "Relationship is required"
+  ,"healthInfoAdmin.form.relationshipPlaceholder": "Ex: Spouse, Child"
+  ,"healthInfoAdmin.form.coverageStatusPlaceholder": "Ex: Active, Not Included"
+  ,"healthInfoAdmin.form.planDetailsPlaceholder": "Plan details if different"
+  ,"healthInfoAdmin.form.addDependent": "Add Dependent"
+  ,"healthInfoAdmin.form.uploadDocuments": "Upload Documents"
+  ,"healthInfoAdmin.form.uploadDocumentsHint": "Relevant policy, collection receipt, etc."
+  ,"healthInfoAdmin.form.selectFiles": "Select Files"
+  ,"healthInfoAdmin.form.existingDocuments": "Existing Documents:"
+  ,"healthInfoAdmin.form.confirmDocumentDelete": "Are you sure you want to delete this document?"
+  ,"healthInfoAdmin.form.addNewDocument": "Add New Document"
+  ,"healthInfoAdmin.form.addNewDocumentHint": "Remove from above list to delete existing documents"
+}

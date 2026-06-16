@@ -1,0 +1,76 @@
+.agreement-texts-root .ant-card-head {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.agreement-texts-root .ant-card-head-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding-right: 8px;
+  white-space: normal;
+}
+
+.agreement-texts-root .ant-card-extra {
+  flex: 0 0 auto;
+  max-width: 100%;
+  margin-left: 0;
+  padding: 8px 0 0;
+}
+
+.agreement-texts-root .ant-card-extra .ant-btn {
+  white-space: normal;
+  height: auto;
+}
+
+.agreement-texts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 992px) {
+  .agreement-texts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.agreement-texts-editor .ant-card-head {
+  display: block;
+}
+
+.agreement-texts-editor .ant-card-head-wrapper {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.agreement-texts-editor .ant-card-head-title {
+  width: 100%;
+  padding-right: 0;
+}
+
+.agreement-texts-editor .ant-card-extra {
+  width: 100%;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.agreement-texts-editor .ant-card-extra .ant-btn {
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .agreement-texts-editor .ant-card-extra .ant-btn {
+    width: auto;
+  }
+}
+
+.agreement-texts-editor-title {
+  margin: 0 !important;
+  word-break: break-word;
+}
+
+.agreement-texts-history-modal {
+  max-width: 96vw;
+  padding-bottom: 0;
+}

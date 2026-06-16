@@ -1,0 +1,21 @@
+{
+  "puantaj.breadcrumb.home": "Anasayfa",
+  "puantaj.breadcrumb.self": "Puantaj",
+  "puantaj.modal.title": "Efor giriniz",
+  "puantaj.modal.cancel": "İptal",
+  "puantaj.modal.save": "Kaydet",
+  "puantaj.modal.selectedDate": "Seçilen Tarih:",
+  "puantaj.modal.effort": "Efor:",
+  "puantaj.modalEvents.titleUpdate": "Etkinliği güncelle",
+  "puantaj.modalEvents.titleSet": "Etkinlik ekle",
+  "puantaj.modalEvents.ok": "Tamam",
+  "puantaj.modalEvents.cancel": "İptal",
+  "puantaj.modalEvents.titlePh": "Başlık",
+  "puantaj.modalEvents.descPh": "Açıklama",
+  "puantaj.range.today": "Bugün",
+  "puantaj.range.thisMonth": "Bu ay",
+  "puantaj.delete.confirm": "Etkinliği silmek istediğinize emin misiniz?",
+  "puantaj.delete.ok": "SİL",
+  "puantaj.delete.cancel": "Hayır",
+  "puantaj.delete.notification": "Silindi"
+}

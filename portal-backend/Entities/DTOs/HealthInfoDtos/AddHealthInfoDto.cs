@@ -1,0 +1,32 @@
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System.Collections.Generic;
+
+namespace Entities.DTOs.HealthInfoDtos
+{
+    public class AddHealthInfoDto
+    {
+        public long UserId { get; set; }
+        public string InsuranceCompanyName { get; set; }
+        public string InsurancePolicyNo { get; set; }
+        public DateTime InsuranceBeginDate { get; set; }
+        public DateTime InsuranceEndDate { get; set; }
+
+        public string? PolicyType { get; set; }
+        public string? PolicyStatus { get; set; }
+        public string? PlanName { get; set; }
+        public string? CoverageArea { get; set; }
+        public string? CoverageLimit { get; set; }
+        public string? CoveragePercentage { get; set; }
+
+        // --- YENİ EKLENEN ACENTE ALANLARI ---
+        public string AgencyName { get; set; }
+        public string AgencyContactPerson { get; set; }
+        public string AgencyContactPhone { get; set; }
+
+        // İlişkili Veriler
+        public HealthInfoPremiumDto? PremiumDetails { get; set; }
+        public List<HealthInfoDependentDto> Dependents { get; set; } = new List<HealthInfoDependentDto>();
+        public List<IFormFile>? Files { get; set; }
+    }
+}

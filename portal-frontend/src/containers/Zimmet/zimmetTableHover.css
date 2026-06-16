@@ -1,0 +1,91 @@
+/* Ortak: admin + kullanıcı zimmet tabloları — satır ve aksiyon hover */
+
+.zimmet-assets-table .ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #f0f7ff !important;
+  transition: background-color 0.18s ease;
+}
+
+.zimmet-assets-table .ant-table-tbody > tr > td {
+  transition: background-color 0.18s ease;
+}
+
+.zimmet-assets-table .zimmet-action-slot {
+  border-radius: 8px;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.zimmet-assets-table .zimmet-action-slot:has(.ant-btn:not(:disabled)):hover {
+  background: rgba(24, 144, 255, 0.1);
+  box-shadow: 0 0 0 1px rgba(24, 144, 255, 0.25);
+}
+
+.zimmet-assets-table .zimmet-action-slot--danger:has(.ant-btn:not(:disabled)):hover {
+  background: rgba(255, 77, 79, 0.1);
+  box-shadow: 0 0 0 1px rgba(255, 77, 79, 0.28);
+}
+
+/* Teslim aldım / alamadım: tek satır, nötr hover (mavi kutu yeşil butonda görünmesin) */
+.zimmet-assets-table .zimmet-handshake-actions {
+  white-space: nowrap;
+}
+
+.zimmet-assets-table .zimmet-handshake-actions .zimmet-action-slot:has(.ant-btn:not(:disabled)):hover {
+  background: rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.zimmet-assets-table .zimmet-handshake-actions .zimmet-action-slot--danger:has(.ant-btn:not(:disabled)):hover {
+  background: rgba(207, 19, 34, 0.06);
+  box-shadow: 0 0 0 1px rgba(207, 19, 34, 0.18);
+}
+
+/* İade talebi vb.: hücreyi doldurmasın, hafif vurgu */
+.zimmet-assets-table .zimmet-action-slot--accent {
+  width: fit-content;
+  max-width: 100%;
+}
+
+.zimmet-assets-table .zimmet-action-slot--accent:has(.ant-btn:not(:disabled)):hover {
+  background: rgba(250, 140, 22, 0.04);
+  box-shadow: 0 0 0 1px rgba(250, 140, 22, 0.14);
+}
+
+.zimmet-assets-table .zimmet-action-slot--accent:has(.ant-btn:not(:disabled)):hover .ant-btn {
+  border-color: #d48806;
+}
+
+.zimmet-assets-table .zimmet-action-slot--icon:hover {
+  background: rgba(250, 173, 20, 0.14);
+  box-shadow: 0 0 0 1px rgba(250, 173, 20, 0.35);
+}
+
+.zimmet-assets-table .zimmet-action-slot--icon .anticon {
+  transition: transform 0.12s ease;
+}
+
+.zimmet-assets-table .zimmet-action-slot--icon:hover .anticon {
+  transform: scale(1.08);
+}
+
+.zimmet-assets-table .zimmet-action-slot .ant-btn {
+  transition: transform 0.12s ease;
+}
+
+.zimmet-assets-table .zimmet-action-slot:has(.ant-btn:not(:disabled)):hover .ant-btn .anticon {
+  transform: scale(1.08);
+}
+
+/* Sıralı sütun: varsayılan koyu/gri vurguyu kaldır; satır hover ile uyumlu */
+.zimmet-assets-table .ant-table-tbody > tr > td.ant-table-column-sort {
+  background: transparent !important;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.zimmet-assets-table .ant-table-tbody > tr.ant-table-row:hover > td.ant-table-column-sort {
+  background: #f0f7ff !important;
+}
+
+.zimmet-assets-table .zimmet-delivery-date-cell {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 400;
+}

@@ -1,0 +1,98 @@
+.portal-font-size-trigger {
+  min-width: 90px;
+  height: 28px;
+  padding: 0 10px;
+  font-size: 13px;
+  line-height: 28px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.portal-font-size-value {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.portal-font-size-caret {
+  flex-shrink: 0;
+  opacity: 0.5;
+  font-size: 10px;
+}
+
+.portal-rich-content {
+  font-size: 15px;
+  line-height: 1.7;
+  color: inherit;
+  word-break: break-word;
+}
+
+.portal-rich-content p {
+  margin: 0 0 14px;
+}
+
+.portal-rich-content ul,
+.portal-rich-content ol {
+  margin: 0 0 14px 0;
+  padding-left: 0;
+}
+
+.portal-rich-content ul {
+  list-style: none;
+}
+
+.portal-rich-content ol {
+  list-style: none;
+  counter-reset: ol-list;
+}
+
+.portal-rich-content ul li,
+.portal-rich-content ol li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.4em;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.portal-rich-content ol li {
+  counter-increment: ol-list;
+}
+
+.portal-rich-content ol li::before {
+  content: counter(ol-list) ".";
+  flex: 0 0 auto;
+  min-width: 1.6em;
+  text-align: right;
+  font-size: var(--list-marker-font-size, 1em);
+  line-height: 1.35;
+  color: #6b7280;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.portal-rich-content ul li::before {
+  content: "−";
+  flex: 0 0 auto;
+  min-width: 0.75em;
+  text-align: center;
+  font-size: var(--list-marker-font-size, 1em);
+  line-height: 1.35;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.portal-rich-content li .portal-li-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  line-height: 1.35;
+}

@@ -1,0 +1,26 @@
+/* Talep liste filtreleri (Taleplerim + Admin) — requestTableRadius = 8 */
+.request-filter-select .ant-select-selector {
+  border-radius: 8px !important;
+}
+
+.request-filter-dropdown.ant-select-dropdown {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.request-filter-search.ant-input-affix-wrapper {
+  border-radius: 8px !important;
+}
+
+.request-filter-search.ant-input {
+  border-radius: 8px !important;
+}
+
+/* Talep oluştur / düzenle — Input.TextArea dahil tek sınıf */
+.request-rounded-control.ant-input {
+  border-radius: 8px !important;
+}
+
+.request-create-upload .ant-upload-list-item {
+  border-radius: 8px !important;
+}

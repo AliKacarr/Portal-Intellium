@@ -1,0 +1,370 @@
+/* ============================================================
+   LeaveBalanceAdmin.css
+   Admin → İzin Bakiyesi Yönetimi sayfasına özel stiller.
+   Global stilleri ezmemek için tüm seçicilere .lba- prefix'i
+   ekledik. (lba = LeaveBalanceAdmin)
+   ============================================================ */
+
+/* ── Üst Satır: Başlık + Arama ──────────────────────────────── */
+.lba-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.lba-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lba-search {
+  width: 280px;
+  border-radius: 8px;
+}
+
+.lba-refresh-btn {
+  border-radius: 8px;
+}
+
+/* ── Tablo Wrapper ───────────────────────────────────────────── */
+.lba-table-wrapper {
+  width: 100%;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #eaecf0;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.lba-table-wrapper .ant-table-wrapper {
+  overflow-x: auto;
+}
+
+.lba-table-wrapper .ant-table {
+  margin: 0;
+}
+
+.lba-table-wrapper .ant-table-container {
+  border-start-start-radius: 12px;
+  border-start-end-radius: 12px;
+}
+
+.lba-table-wrapper .ant-pagination {
+  margin: 12px 16px 16px !important;
+  padding: 0;
+}
+
+.lba-table-wrapper .ant-table-thead > tr > th {
+  background: #f7f8fc;
+  font-weight: 600;
+  font-size: 13px;
+  color: #555;
+  border-bottom: 2px solid #eaecf0;
+}
+
+/* Sol kenara yapışmayı önle: tüm hücrelere yatay boşluk, ilk sütunda biraz fazla */
+.lba-table-wrapper .ant-table-thead > tr > th,
+.lba-table-wrapper .ant-table-tbody > tr > td {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.lba-table-wrapper .ant-table-thead > tr > th:first-child,
+.lba-table-wrapper .ant-table-tbody > tr > td:first-child {
+  padding-left: 28px !important;
+}
+
+/* Negatif bakiyeli satır vurgu rengi */
+.lba-row-negative td {
+  background-color: #fff5f5 !important;
+}
+
+/* ── Kullanıcı Hücresi ───────────────────────────────────────── */
+.lba-table-wrapper .lba-col-user {
+  width: 220px !important;
+  max-width: 220px !important;
+}
+
+.lba-user-space {
+  max-width: 100%;
+  width: 100%;
+}
+
+.lba-table-wrapper .lba-col-user .ant-space-item:last-child {
+  min-width: 0;
+  overflow: hidden;
+  flex: 1 1 auto;
+}
+
+.lba-user-text {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.lba-table-wrapper .lba-col-user .lba-username,
+.lba-table-wrapper .lba-col-user .lba-email {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lba-avatar {
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.lba-username {
+  font-weight: 600;
+  font-size: 13.5px;
+  color: #1a1a2e;
+  line-height: 1.3;
+}
+
+.lba-email {
+  font-size: 12px;
+  color: #8c8c8c;
+  line-height: 1.3;
+}
+
+/* ── Etiketler (Tag) ─────────────────────────────────────────── */
+.lba-tag {
+  font-weight: 600;
+  font-size: 12.5px;
+  border-radius: 20px;
+  padding: 2px 10px;
+  border: none;
+}
+
+.lba-tag-total {
+  background: #e8f4ff;
+  color: #1677ff;
+}
+
+.lba-tag-used {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.lba-tag-ok {
+  background: #e6f9f0;
+  color: #389e0d;
+}
+
+.lba-tag-low {
+  background: #fff8e1;
+  color: #d46b08;
+}
+
+.lba-tag-negative {
+  background: #fff1f0;
+  color: #cf1322;
+}
+
+/* ── Bu Yıl Hak ─────────────────────────────────────────────── */
+.lba-year-label {
+  color: #722ed1;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+/* ── Düzenle Butonu ──────────────────────────────────────────── */
+.lba-edit-btn {
+  border-radius: 6px;
+  font-size: 12.5px;
+}
+
+/* ── Modal ───────────────────────────────────────────────────── */
+.lba-modal .ant-modal-content {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.lba-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.lba-modal-icon {
+  color: #1677ff;
+  font-size: 18px;
+}
+
+/* Modal üst kısmı: kullanıcı bilgisi */
+.lba-modal-user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #f0f4ff 0%, #faf0ff 100%);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+}
+
+.lba-modal-username {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a1a2e;
+}
+
+.lba-modal-email {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+/* Mevcut bilgi chipleri */
+.lba-current-info {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.lba-info-chip {
+  flex: 1;
+  min-width: 80px;
+  background: #f7f8fc;
+  border-radius: 8px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.lba-info-label {
+  font-size: 11px;
+  color: #999;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.lba-info-val {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.lba-info-val.lba-negative {
+  color: #cf1322;
+}
+
+/* Form */
+.lba-form .ant-form-item-label > label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.lba-number-input {
+  border-radius: 8px;
+}
+
+/* Modal Footer butonlar */
+.lba-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.lba-save-btn {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.lba-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 16px;
+  margin-bottom: 20px;
+  padding: 14px;
+  background: #f9fafb;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.lba-info-l {
+  display: block;
+  color: #6b7280;
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+
+.lba-cal-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  margin-top: 8px;
+}
+
+/* Takvim: Ay/Yıl mod seçici (radio) kaldırılır — sadece aylık görünüm */
+.lba-cal-card .ant-picker-calendar-mode-switch,
+.lba-cal-card .ant-radio-group-outline,
+.lba-cal-card .ant-picker-calendar-header .ant-radio-group {
+  display: none !important;
+}
+
+.lba-calendar {
+  min-height: 400px;
+}
+
+.lba-calendar .ant-picker-calendar-date {
+  min-height: 100px;
+}
+
+.lba-cal-day-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 2px;
+  max-width: 100%;
+}
+
+.lba-cal-item {
+  line-height: 1.1;
+  margin-bottom: 4px;
+  font-size: 9px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lba-cal-pill {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.1;
+  padding: 0 3px;
+  margin: 0;
+}
+
+.lba-cal-user {
+  color: #374151;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.lba-cal-more {
+  font-size: 9px;
+  color: #6b7280;
+}
+
+.lba-cal-skel {
+  padding: 8px 0 16px;
+  color: #6b7280;
+}

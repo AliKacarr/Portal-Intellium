@@ -1,0 +1,19 @@
+{
+  "notification.title": "Bildirimler",
+  "notification.actions.loadMore": "Daha Fazla",
+  "notification.actions.clearAll": "Tumunu temizle",
+  "notification.actions.delete": "Sil",
+  "notification.common.yes": "Evet",
+  "notification.common.no": "Hayır",
+  "notification.common.cancel": "Vazgeç",
+  "notification.tooltips.read": "Okundu",
+  "notification.tooltips.markAsRead": "Okundu olarak isaretle",
+  "notification.confirm.clearAllTitle": "Tum bildirimleri silmek istediginize emin misiniz?",
+  "notification.confirm.deleteOneTitle": "Bu bildirimi silmek istediginize emin misiniz?",
+  "notification.messages.deleted": "Bildirim silindi",
+  "notification.messages.deleteNotSupported": "Silme özelliği sunucuda tanımlı değil (404).",
+  "notification.messages.deleteFailed": "Bildirim silinemedi.",
+  "notification.messages.clearedAll": "Tum bildirimler temizlendi",
+  "notification.messages.bulkDeleteNotSupported": "Toplu silme sunucuda tanımlı değil (404).",
+  "notification.messages.bulkDeleteFailed": "Bildirimler temizlenemedi."
+}

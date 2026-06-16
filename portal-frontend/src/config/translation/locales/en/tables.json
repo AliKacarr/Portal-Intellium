@@ -1,0 +1,17 @@
+{
+  "antTable.title.city": "City",
+  "antTable.title.dob": "DOB",
+  "antTable.title.email": "Email",
+  "antTable.title.firstName": "First Name",
+  "antTable.title.image": "Image",
+  "antTable.title.lastName": "Last Name",
+  "antTable.title.street": "Street",
+  "tables.group.address": "Address",
+  "tables.group.name": "Name",
+  "tables.tableinfos.customized": "Customized View",
+  "tables.tableinfos.editable": "Editable View",
+  "tables.tableinfos.grouping": "Grouping View",
+  "tables.tableinfos.search": "Search Text",
+  "tables.tableinfos.simple": "Simple Table",
+  "tables.tableinfos.sortable": "Sortable Table"
+}

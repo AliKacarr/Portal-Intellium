@@ -1,0 +1,21 @@
+{
+  "puantaj.breadcrumb.home": "Home",
+  "puantaj.breadcrumb.self": "Timesheet",
+  "puantaj.modal.title": "Enter effort",
+  "puantaj.modal.cancel": "Cancel",
+  "puantaj.modal.save": "Save",
+  "puantaj.modal.selectedDate": "Selected date:",
+  "puantaj.modal.effort": "Effort:",
+  "puantaj.modalEvents.titleUpdate": "Update event",
+  "puantaj.modalEvents.titleSet": "Add event",
+  "puantaj.modalEvents.ok": "OK",
+  "puantaj.modalEvents.cancel": "Cancel",
+  "puantaj.modalEvents.titlePh": "Title",
+  "puantaj.modalEvents.descPh": "Description",
+  "puantaj.range.today": "Today",
+  "puantaj.range.thisMonth": "This month",
+  "puantaj.delete.confirm": "Are you sure you want to delete this event?",
+  "puantaj.delete.ok": "DELETE",
+  "puantaj.delete.cancel": "No",
+  "puantaj.delete.notification": "Deleted"
+}

@@ -1,0 +1,23 @@
+.addTaskTodoButton {
+    margin: 5px 5px 0 0;
+}
+
+/* tile uploaded pictures */
+.upload-list-inline .ant-upload-list-item {
+    float: left;
+    width: 270px;
+    margin-right: 8px;
+}
+
+.upload-list-inline [class*='-upload-list-rtl'] .ant-upload-list-item {
+    float: right;
+}
+.custom-tag {
+    border-radius: 12px;
+    border: none;
+    padding: 4px 10px;
+    background: none;
+    margin-bottom: 5px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+  }

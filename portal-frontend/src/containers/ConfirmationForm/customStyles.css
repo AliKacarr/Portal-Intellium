@@ -1,0 +1,24 @@
+.assets__searchbar-container {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+.filter-button-active {
+    color: white !important;
+    background-color: black !important;
+    transition: all 0.1s ease-in, border-radius 0s !important;
+    outline: none !important;
+  }
+  
+  .filter-button-disabled {
+    transition: all 0s ease-in, border-radius 0s !important;
+  }
+
+  .non-border .ant-select-selector {
+    border-radius: 0rem !important;
+  }
+
+  .assets__bordered-select .ant-select-selector {
+    border-radius: 0 2rem 2rem 0 !important;
+  }

@@ -1,0 +1,12 @@
+.request-table .ant-table-tbody > tr > td,
+.request-table .ant-table-thead > tr > th {
+  vertical-align: middle;
+}
+
+.request-table .ant-table-cell {
+  vertical-align: middle;
+}
+
+.request-table-wrap {
+  overflow-x: auto;
+}

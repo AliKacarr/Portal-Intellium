@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-posta Doğrulama</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #F4F7F9; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; color: #1F2937;">
+    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #F4F7F9; padding: 40px 16px;">
+        <tr>
+            <td align="center">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="max-width: 600px; background-color: #FFFFFF; border: 1px solid #EAEAEA; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);">
+                    <tr>
+                        <td style="padding: 32px; text-align: center; border-bottom: 1px solid #F0F0F0;">
+                            <img src="{{LogoUrl}}" alt="Recruna" height="36" style="display: inline-block; height: 36px; width: auto;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 40px 32px;">
+                            <h1 style="margin: 0 0 16px 0; font-size: 20px; font-weight: 600; color: #111827;">
+                                Merhaba {{FullName}},
+                            </h1>
+                            <p style="margin: 0 0 28px 0; color: #4B5563; font-size: 15px; line-height: 1.6;">
+                                Recruna hesabınızı aktif hale getirmek için e-posta adresinizi doğrulamanız gerekiyor. Aşağıdaki butonu kullanarak doğrulama işlemini güvenle tamamlayabilirsiniz.
+                            </p>
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="margin: 0 0 32px 0;">
+                                <tr>
+                                    <td align="center">
+                                        <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                                            <tr>
+                                                <td align="center" style="background-color: #0EA5E9; border-radius: 8px; box-shadow: 0 2px 4px rgba(14, 165, 233, 0.2);">
+                                                    <a href="{{VerificationLink}}" style="display: inline-block; padding: 14px 32px; font-size: 15px; color: #FFFFFF; text-decoration: none; font-weight: 600;">
+                                                        E-posta Adresimi Doğrula
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div style="margin: 0 0 28px 0;">
+                                <p style="margin: 0 0 8px 0; color: #6B7280; font-size: 13px; line-height: 1.5;">
+                                    Buton çalışmazsa, aşağıdaki bağlantıyı tarayıcınıza kopyalayabilirsiniz:
+                                </p>
+                                <p style="margin: 0; font-size: 13px; word-break: break-all;">
+                                    <a href="{{VerificationLink}}" style="color: #0EA5E9; text-decoration: underline;">{{VerificationLink}}</a>
+                                </p>
+                            </div>
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #F8FAFC; border-radius: 8px; border-left: 4px solid #CBD5E1;">
+                                <tr>
+                                    <td style="padding: 16px; font-size: 13px; color: #64748B; line-height: 1.5;">
+                                        Bu e-postayı siz talep etmediyseniz, güvenliğiniz için bu mesajı dikkate almayınız.
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

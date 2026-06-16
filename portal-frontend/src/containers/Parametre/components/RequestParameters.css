@@ -1,0 +1,65 @@
+.request-param-card {
+  border-radius: 14px !important;
+  border: 1px solid #eef2f7 !important;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.05);
+  overflow: hidden;
+}
+
+.request-param-card + .request-param-card {
+  margin-top: 2px;
+}
+
+.request-param-card .ant-card-head {
+  border-bottom-color: #eef2f7;
+  background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+}
+
+.request-param-primary-btn {
+  border-radius: 999px !important;
+  height: 32px;
+  padding: 0 14px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 6px 14px rgba(24, 144, 255, 0.18);
+}
+
+.request-param-table .ant-table {
+  border-radius: 10px;
+}
+
+.request-param-table .ant-table-thead > tr > th {
+  background: #fbfcff !important;
+  color: #334155;
+  font-weight: 700;
+  border-bottom: 1px solid #edf2f7 !important;
+}
+
+.request-param-table .ant-table-tbody > tr.request-param-row > td {
+  transition: background-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.request-param-table .ant-table-tbody > tr.request-param-row:hover > td {
+  background: #eef9ff !important;
+}
+
+.request-param-table .ant-table-tbody > tr.ant-table-row-selected > td {
+  background: #e6f7ff !important;
+}
+
+.request-param-actions {
+  display: flex !important;
+  justify-content: center;
+  gap: 6px !important;
+}
+
+.request-param-actions .ant-btn {
+  border-radius: 999px !important;
+}
+
+.request-param-actions .ant-btn:hover {
+  background: #f1f5f9 !important;
+  transform: translateY(-1px);
+}
+
+.request-param-actions .ant-btn-dangerous:hover {
+  background: #fff1f0 !important;
+}

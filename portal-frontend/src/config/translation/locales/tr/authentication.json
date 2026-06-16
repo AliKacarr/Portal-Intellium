@@ -1,0 +1,4 @@
+{
+  "authentication.auth0.loading": "Yükleniyor...",
+  "authentication.auth0.wrongCredentials": "Hatali e-posta veya şifre"
+}

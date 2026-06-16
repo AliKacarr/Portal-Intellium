@@ -1,0 +1,96 @@
+/* ParameterManagement.css */
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Global .ant-btn border-radius ile çakışmasın; parametre / ilgili sayfalarda biraz daha yuvarlak köşe */
+.ant-btn.custom-button {
+    border-radius: 6px;
+}
+
+.custom-button .anticon {
+    vertical-align: middle;
+}
+
+/* Genel Breadcrumb ve Header Stil */
+.breadcrumb {
+    margin-bottom: 16px;
+}
+
+.page-header {
+    margin-bottom: 16px;
+}
+
+/* Tabların Bulunduğu Kartın Stili */
+.tabs-card {
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+/* Modal İçerik Alanları */
+.input-field {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.input-color {
+    width: 100%;
+}
+
+/* Parametre sekmeleri: dar ekranda yatay kaydırma */
+.parametre-tabs .ant-tabs-nav {
+  margin-bottom: 0;
+}
+
+.parametre-tabs .ant-tabs-nav-wrap {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.parametre-tabs .ant-tabs-nav-list {
+  flex-wrap: nowrap;
+}
+
+.parametre-tabs .ant-tabs-tab {
+  flex: 0 0 auto;
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .tabs-card {
+        padding: 12px;
+        box-shadow: none;
+        border-radius: 5px;
+        /* Mobilde daha düz görünüm */
+    }
+
+    .breadcrumb {
+        font-size: 14px;
+        /* Daha küçük font */
+    }
+
+    .page-header {
+        font-size: 16px;
+        /* Daha küçük başlık */
+    }
+}
+
+.custom-color-input {
+    border: none;
+    padding: 0;
+    width: 32px;
+    cursor: pointer;
+}
+
+.centered-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

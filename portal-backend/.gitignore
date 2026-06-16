@@ -1,0 +1,41 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.vs/
+/.vs/
+/.vs/TaskManagementProject/FileContentIndex/dda37795-d1be-4dfb-911a-85e463d47c4f.vsidx
+/.vs/TaskManagementProject/FileContentIndex/ed72489f-8322-4cb4-b9ff-dcc14d39b086.vsidx
+/.vs/ProjectEvaluation/taskmanagementproject.projects.v6.1
+/.vs/ProjectEvaluation/taskmanagementproject.metadata.v6.1
+/.vs/ProjectEvaluation/taskmanagementproject.projects.v6.1
+/.vs/ProjectEvaluation/taskmanagementproject.metadata.v6.1
+.DS_Store
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+!Entities/Concrete/Logs/
+!Entities/Concrete/Logs/*
+
+# Local build check artifacts (not part of the solution; safe to delete)
+_buildcheck/
+_buildcheck2/
+_buildcheck3/
+_buildcheck4/
+_buildcheck5/
+_buildcheck6/
+_buildcheck*/

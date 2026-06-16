@@ -1,0 +1,17 @@
+{
+  "antTable.title.city": "Şehir",
+  "antTable.title.dob": "DOB",
+  "antTable.title.email": "Email",
+  "antTable.title.firstName": "Ad",
+  "antTable.title.image": "Resim",
+  "antTable.title.lastName": "Soyad",
+  "antTable.title.street": "Sokak",
+  "tables.group.address": "Adres",
+  "tables.group.name": "İsim",
+  "tables.tableinfos.customized": "Özelleştirilmiş Görünüm",
+  "tables.tableinfos.editable": "Düzenlenebilir Görünüm",
+  "tables.tableinfos.grouping": "Gruplama Görünümü",
+  "tables.tableinfos.search": "Arama",
+  "tables.tableinfos.simple": "Basit Tablo",
+  "tables.tableinfos.sortable": "Sıralanabilir Tablo"
+}

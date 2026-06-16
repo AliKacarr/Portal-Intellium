@@ -1,0 +1,4 @@
+{
+  "authentication.auth0.loading": "Loading...",
+  "authentication.auth0.wrongCredentials": "Wrong mail or password"
+}
